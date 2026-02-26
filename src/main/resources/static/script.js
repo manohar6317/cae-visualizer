@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log("SENDING PAYLOAD:", payload);
 
         try {
-            const response = await fetch('http://localhost:8081/api/simulate', {
+            const response = await fetch('/api/simulate', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
